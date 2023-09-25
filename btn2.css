@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+html,
+body {
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative; left: 100px;
+  border-radius: 10px;
+    margin-right: 20%;
+}
+
+div[class*=box] {
+  height: 300%;
+  width: 100%;
+  border: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+
+}
+
+.box-1 { background-color:#3C3C3C ; }
+.box-2 { background-color: #66A182; }
+.box-3 { background-color: #1A5276 ;  border-radius: 10px;}
+
+.btn {
+  line-height: 60px;
+  height: 30px;
+  text-align: center;
+  width: 270px;
+  cursor: pointer;
+  border-radius: 10px;
+
+
+}
+
+
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+  border-radius: 10px;
+}
+.btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 105%;
+  height: 105%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+  border-radius: 10px;
+
+}
+.btn-three:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+  border-radius: 10px;
+}
+.btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 5px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+  border-radius: 10px;
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+  border-radius: 10px;
+}
+
+div{
+  justify-content: center;
+
+}

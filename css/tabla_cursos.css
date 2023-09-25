@@ -1,0 +1,11 @@
+table {
+		border: powderblue solid;
+	padding: 3px 10px;
+border-radius:10px;
+	border-color: black;
+	background: black;
+	color: #00c69f!important;
+	height: 30px;
+	width: 70%;
+	opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+.boton1 {
+	border-color: green ;
+	background-color: green;
+	color: white;
+	margin: 3em 4em 5em 35em;
+}
+
+.boton2 {
+	border-color: blue ;
+	background-color: blue;
+	color: white;
+	margin: 4em 4em 5em 35em;
+}
+

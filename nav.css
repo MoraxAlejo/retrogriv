@@ -1,0 +1,39 @@
+
+
+body{
+ background-repeat: no-repeat; -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+   background-size:119% 119%;
+
+
+ 
+}
+
+
+
+div.alert {
+	width:30%;  
+	height: 50%
+}
+
+
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FA4343;
+    border-radius: 6px;
+    border-top-left-radius: 550px 200px;
+    border: 2px solid #FB0404;
+    margin-left: 84%;
+    position:relative; top:10px; left:50px
+  }
+  .boton:hover{
+    color: #E50101;
+    background-color: #ffffff;
+  }
+
